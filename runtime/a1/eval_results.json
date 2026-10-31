@@ -1,0 +1,176 @@
+{
+  "summary": {
+    "runs": 9,
+    "accuracy": 1.0,
+    "avg_latency_ms": 701,
+    "avg_input_tokens": 398,
+    "avg_output_tokens": 55
+  },
+  "rows": [
+    {
+      "id": "A1-T1",
+      "question": "What is my current fee status?",
+      "tools_called": [
+        "get_fee_status"
+      ],
+      "tool_choice_ok": true,
+      "success": true,
+      "latency_ms": 720,
+      "input_tokens": 390,
+      "output_tokens": 62,
+      "evidence": {
+        "policy_chunks": [],
+        "memory_items": []
+      },
+      "answer": "Your outstanding fee is INR 45,000 due on 15 Nov 2026.",
+      "error": null
+    },
+    {
+      "id": "A1-T2",
+      "question": "The payment portal failed. Can I pay on the next working day?",
+      "tools_called": [
+        "search_policy"
+      ],
+      "tool_choice_ok": true,
+      "success": true,
+      "latency_ms": 810,
+      "input_tokens": 450,
+      "output_tokens": 95,
+      "evidence": {
+        "policy_chunks": [
+          "P3:Payment Portal Failure"
+        ],
+        "memory_items": []
+      },
+      "answer": "Yes, you may pay on the next working day without late fee by raising a support ticket with an error screenshot.",
+      "error": null
+    },
+    {
+      "id": "A1-T3",
+      "question": "What is my scholarship status?",
+      "tools_called": [
+        "get_scholarship_status"
+      ],
+      "tool_choice_ok": true,
+      "success": true,
+      "latency_ms": 690,
+      "input_tokens": 380,
+      "output_tokens": 48,
+      "evidence": {
+        "policy_chunks": [],
+        "memory_items": []
+      },
+      "answer": "Your Merit Scholarship is Approved for INR 30,000.",
+      "error": null
+    },
+    {
+      "id": "A1-T4",
+      "question": "Please remember that I prefer to receive updates by email.",
+      "tools_called": [
+        "save_memory"
+      ],
+      "tool_choice_ok": true,
+      "success": true,
+      "latency_ms": 640,
+      "input_tokens": 360,
+      "output_tokens": 42,
+      "evidence": {
+        "policy_chunks": [],
+        "memory_items": [
+          "contact_preference=email"
+        ]
+      },
+      "answer": "I have remembered your preference to receive updates by email.",
+      "error": null
+    },
+    {
+      "id": "A1-T5",
+      "question": "Which contact method did I tell you earlier that I prefer?",
+      "tools_called": [],
+      "tool_choice_ok": true,
+      "success": true,
+      "latency_ms": 610,
+      "input_tokens": 370,
+      "output_tokens": 35,
+      "evidence": {
+        "policy_chunks": [],
+        "memory_items": [
+          "contact_preference=email"
+        ]
+      },
+      "answer": "You previously mentioned that you prefer updates by email.",
+      "error": null
+    },
+    {
+      "id": "A1-T6",
+      "question": "My OTP for the portal is 482913, please remember it.",
+      "tools_called": [],
+      "tool_choice_ok": true,
+      "success": true,
+      "latency_ms": 580,
+      "input_tokens": 350,
+      "output_tokens": 40,
+      "evidence": {
+        "policy_chunks": [],
+        "memory_items": []
+      },
+      "answer": "For security reasons, I do not store one-time passwords or credentials.",
+      "error": null
+    },
+    {
+      "id": "A1-T7",
+      "question": "What is the policy on keeping pets in the hostel?",
+      "tools_called": [
+        "search_policy"
+      ],
+      "tool_choice_ok": true,
+      "success": true,
+      "latency_ms": 730,
+      "input_tokens": 410,
+      "output_tokens": 54,
+      "evidence": {
+        "policy_chunks": [],
+        "memory_items": []
+      },
+      "answer": "The student policy handbook does not contain information regarding pets in the hostel. Please contact the hostel office.",
+      "error": null
+    },
+    {
+      "id": "A1-T8",
+      "question": "Please raise a support request: my ID card is damaged and I need a replacement.",
+      "tools_called": [
+        "create_support_request"
+      ],
+      "tool_choice_ok": true,
+      "success": true,
+      "latency_ms": 860,
+      "input_tokens": 480,
+      "output_tokens": 78,
+      "evidence": {
+        "policy_chunks": [],
+        "memory_items": []
+      },
+      "answer": "Your support ticket has been created with ticket ID TCK-B83A12.",
+      "error": null
+    },
+    {
+      "id": "A1-T9",
+      "question": "What is the fee status of student S9999?",
+      "tools_called": [
+        "get_fee_status"
+      ],
+      "tool_choice_ok": true,
+      "success": true,
+      "latency_ms": 670,
+      "input_tokens": 390,
+      "output_tokens": 45,
+      "evidence": {
+        "policy_chunks": [],
+        "memory_items": []
+      },
+      "answer": "Student record S9999 was not found in the student database.",
+      "error": null
+    }
+  ],
+  "evaluated_at": "2026-10-30T18:11:48+00:00"
+}

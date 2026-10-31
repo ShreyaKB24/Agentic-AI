@@ -1,0 +1,24 @@
+{"audit_id": "38a8770aa1", "timestamp": "2026-10-30T18:08:53+00:00", "actor": "S1001", "action": "login", "target_student": "S1001", "details": {}, "decision": "allowed", "result": "success"}
+{"audit_id": "a25e309ab9", "timestamp": "2026-10-30T18:08:53+00:00", "actor": "S1001", "action": "login", "target_student": "S1001", "details": {}, "decision": "blocked", "result": "invalid credentials"}
+{"audit_id": "1aeaa5c242", "timestamp": "2026-10-30T18:08:53+00:00", "actor": "S9999", "action": "login", "target_student": "S9999", "details": {}, "decision": "blocked", "result": "invalid credentials"}
+{"audit_id": "0289485127", "timestamp": "2026-10-30T18:08:53+00:00", "actor": "admin", "action": "admin_login", "target_student": null, "details": {}, "decision": "allowed", "result": "success"}
+{"audit_id": "7f5376f888", "timestamp": "2026-10-30T18:08:53+00:00", "actor": "admin", "action": "admin_login", "target_student": null, "details": {}, "decision": "blocked", "result": "invalid credentials"}
+{"audit_id": "b5646945b7", "timestamp": "2026-10-30T18:08:54+00:00", "actor": "S1001", "action": "login", "target_student": "S1001", "details": {}, "decision": "allowed", "result": "success"}
+{"audit_id": "16ab64314a", "timestamp": "2026-10-30T18:08:54+00:00", "actor": "S1001", "action": "login", "target_student": "S1001", "details": {}, "decision": "allowed", "result": "success"}
+{"audit_id": "268c126f58", "timestamp": "2026-10-30T18:08:55+00:00", "actor": "S1001", "action": "login", "target_student": "S1001", "details": {}, "decision": "allowed", "result": "success"}
+{"audit_id": "533221d969", "timestamp": "2026-10-30T18:15:24+00:00", "actor": "S1001", "action": "login", "target_student": "S1001", "details": {}, "decision": "allowed", "result": "success"}
+{"audit_id": "92759e54a8", "timestamp": "2026-10-30T18:15:51+00:00", "actor": "admin", "action": "admin_login", "target_student": null, "details": {}, "decision": "allowed", "result": "success"}
+{"audit_id": "fe0d64156c", "timestamp": "2026-10-30T18:16:23+00:00", "actor": "S1001", "action": "login", "target_student": "S1001", "details": {}, "decision": "allowed", "result": "success"}
+{"audit_id": "d06b1703b2", "timestamp": "2026-10-30T18:16:23+00:00", "actor": "S1001", "action": "login", "target_student": "S1001", "details": {}, "decision": "blocked", "result": "invalid credentials"}
+{"audit_id": "a2493df67d", "timestamp": "2026-10-30T18:16:23+00:00", "actor": "S9999", "action": "login", "target_student": "S9999", "details": {}, "decision": "blocked", "result": "invalid credentials"}
+{"audit_id": "0e43f9a3e8", "timestamp": "2026-10-30T18:16:23+00:00", "actor": "admin", "action": "admin_login", "target_student": null, "details": {}, "decision": "allowed", "result": "success"}
+{"audit_id": "b03ef3fdf1", "timestamp": "2026-10-30T18:16:23+00:00", "actor": "admin", "action": "admin_login", "target_student": null, "details": {}, "decision": "blocked", "result": "invalid credentials"}
+{"audit_id": "4b9cb10601", "timestamp": "2026-10-30T18:16:23+00:00", "actor": "S1001", "action": "login", "target_student": "S1001", "details": {}, "decision": "allowed", "result": "success"}
+{"audit_id": "bc1435a067", "timestamp": "2026-10-30T18:16:24+00:00", "actor": "S1001", "action": "login", "target_student": "S1001", "details": {}, "decision": "allowed", "result": "success"}
+{"audit_id": "c85ecbe09c", "timestamp": "2026-10-30T18:16:24+00:00", "actor": "S1001", "action": "login", "target_student": "S1001", "details": {}, "decision": "allowed", "result": "success"}
+{"audit_id": "5865d96e3f", "timestamp": "2026-10-30T18:22:09+00:00", "actor": "S1001", "action": "login", "target_student": "S1001", "details": {}, "decision": "blocked", "result": "invalid credentials"}
+{"audit_id": "97a4d471b2", "timestamp": "2026-10-30T18:22:18+00:00", "actor": "S1001", "action": "login", "target_student": "S1001", "details": {}, "decision": "blocked", "result": "invalid credentials"}
+{"audit_id": "999b42c761", "timestamp": "2026-10-30T18:22:29+00:00", "actor": "S1001", "action": "login", "target_student": "S1001", "details": {}, "decision": "allowed", "result": "success"}
+{"audit_id": "be7ed3b731", "timestamp": "2026-10-31T11:02:47+00:00", "actor": "S1001", "action": "login", "target_student": "S1001", "details": {}, "decision": "allowed", "result": "success"}
+{"audit_id": "405c27f4aa", "timestamp": "2026-10-31T11:03:28+00:00", "actor": "admin", "action": "admin_login", "target_student": null, "details": {}, "decision": "allowed", "result": "success"}
+{"audit_id": "9fb23adaad", "timestamp": "2026-10-31T11:05:30+00:00", "actor": "admin", "action": "admin_login", "target_student": null, "details": {}, "decision": "allowed", "result": "success"}
